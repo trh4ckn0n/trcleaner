@@ -89,7 +89,7 @@ Lorsque vous lancez le programme, vous aurez deux options :
 ### Exemple de fichier de configuration YAML (`.trcleaner.yaml`) prêts à l’emploi
 
 Voici quelques exemples courants d'utilisation de **trcleaner** via un fichier `.yaml`.  
-(Pour la version complète, consultez [exemple.md](exemple.md))
+(Pour la version complète, consultez [examples.md](examples.md))
 
 
 ```yaml
