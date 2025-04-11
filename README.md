@@ -29,8 +29,10 @@ Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle f
 
 2. Generer le paquet `.deb` :
 
-   ```
+   ```bash
    chmod +x install_and_build.sh
+   ```
+   ```bash
    ./install_and_build.sh
    ```
 
