@@ -68,7 +68,7 @@ def action_delete(paths):
 
 def action_move(paths, dest_folder):
     os.makedirs(dest_folder, exist_ok=True)
-    for p in paths:
+    for p in tqdm(paths, desc="Traitement", unit="fichier"):
         try:
             filename = os.path.basename(p)
             shutil.move(p, os.path.join(dest_folder, filename))
