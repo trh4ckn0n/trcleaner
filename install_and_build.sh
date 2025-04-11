@@ -91,6 +91,7 @@ fi
 # Étape 1 : Installation des dépendances Python
 echo "[*] Installation des dépendances Python..."
 pip install questionary rich humanfriendly pyyaml tqdm
+# pip install questionary rich humanfriendly pyyaml tqdm --break-system-packages
 
 # Étape 2 : Créer le lien symbolique
 chmod +x trcleaner.py
