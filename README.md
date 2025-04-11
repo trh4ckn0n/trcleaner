@@ -24,9 +24,15 @@
 
 1. Téléchargez le fichier `.deb` depuis la section "Releases" de ce dépôt.
 
-2. Installez le paquet `.deb` :
+2. Generer le paquet `.deb` :
 
-   Sur une distribution Debian/Ubuntu, exécutez la commande suivante pour installer le fichier `.deb` :
+   ```
+   chmod +x install_and_build.sh
+   ./install_and_build.sh
+   ```
+
+3. installer le fichier `.deb` :
+   Sur une distribution Debian/Ubuntu, exécutez la commande suivante pour Generer le package `.deb` :
 
    ```bash
    sudo dpkg -i trcleaner_1.0_all.deb
@@ -38,7 +44,7 @@
    sudo apt-get install -f
    ```
 
-3. Vous pouvez maintenant utiliser **trcleaner** en lançant la commande suivante dans votre terminal :
+4. Vous pouvez maintenant utiliser **trcleaner** en lançant la commande suivante dans votre terminal :
 
    ```bash
    trcleaner
