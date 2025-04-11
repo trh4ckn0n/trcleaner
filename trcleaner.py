@@ -10,6 +10,7 @@ from rich import print
 from rich.console import Console
 from rich.panel import Panel
 import humanfriendly
+from tqdm import tqdm
 
 console = Console()
 
@@ -58,7 +59,7 @@ def exclude_paths(files, exclude_list):
     return [f for f in files if not any(f['path'].startswith(e) for e in exclude_list)]
 
 def action_delete(paths):
-    for p in paths:
+    for p in tqdm(paths, desc="Traitement", unit="fichier"):
         try:
             os.remove(p)
             console.print(f"[red]Supprimé[/red] {p}")
