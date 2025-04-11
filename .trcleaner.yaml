@@ -1,0 +1,12 @@
+config:
+  scan_path: "/sdcard/Download"
+  exclude_paths:
+    - "/sdcard/Download/dont_touch"
+  filters:
+    extensions: [".mp4", ".zip", ".apk"]
+    min_size_kb: 5000
+    older_than_days: 30
+  action: "delete"
+  dry_run: true
+  move_dest: "/sdcard/Archives"
+  archive_name: "archive_cleanup"
