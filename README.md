@@ -85,7 +85,12 @@ Lorsque vous lancez le programme, vous aurez deux options :
 - **Mode interactif** : Vous pouvez sélectionner un dossier, définir des filtres (taille minimale, âge maximal des fichiers, extensions), puis choisir une action (supprimer, déplacer, ou compresser les fichiers).
 - **Mode automatique** : Si un fichier de configuration `.yaml` est présent, le script fonctionnera en mode automatique pour effectuer les actions spécifiées dans ce fichier.
 
-### Exemple de fichier de configuration YAML (`.trcleaner.yaml`)
+
+### Exemple de fichier de configuration YAML (`.trcleaner.yaml`) prêts à l’emploi
+
+Voici quelques exemples courants d'utilisation de **trcleaner** via un fichier `.yaml`.  
+(Pour la version complète, consultez [exemple.md](exemple.md))
+
 
 ```yaml
 config:
