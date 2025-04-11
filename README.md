@@ -2,6 +2,8 @@
 
 **trcleaner** est un script de nettoyage interactif conçu pour vous aider à gérer l'espace de stockage de manière fun et efficace. Il est principalement destiné aux utilisateurs de Termux/Kali, mais peut être utilisé sur d'autres systèmes Linux. Ce script permet de supprimer, déplacer ou compresser des fichiers en fonction de différents filtres de taille, âge et extension.
 
+![Installation de trcleaner](https://d.top4top.io/p_3388ecscr0.jpg)
+
 ## Fonctionnalités :
 - Suppression de fichiers inutiles
 - Déplacement de fichiers vers un dossier de destination
