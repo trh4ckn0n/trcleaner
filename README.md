@@ -66,6 +66,8 @@ Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle f
 
 #### Générer uniquement les fichiers d'exemples YAML
 
+![Autogen_examples](https://l.top4top.io/p_33887ea6r0.jpg)
+
 Si tu souhaites uniquement générer les fichiers d'exemples YAML sans procéder à l'installation complète, tu peux utiliser l'option `--generate-examples-only`. Cette commande générera les fichiers d'exemple dans un dossier `examples/` sans créer le paquet `.deb`. Voici comment l'utiliser :
 
 ```bash
