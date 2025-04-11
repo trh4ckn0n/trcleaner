@@ -50,6 +50,32 @@
    trcleaner
    ```
 
+
+### Génération des fichiers YAML d'exemples
+
+Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle fonctionnalité permettant de générer des fichiers YAML d'exemple, utiles pour configurer des scénarios de nettoyage de fichiers. Ces fichiers peuvent être personnalisés selon les besoins de l'utilisateur et servent de point de départ pour la configuration des actions du script.
+
+#### Générer uniquement les fichiers d'exemples YAML
+
+Si tu souhaites uniquement générer les fichiers d'exemples YAML sans procéder à l'installation complète, tu peux utiliser l'option `--generate-examples-only`. Cette commande générera les fichiers d'exemple dans un dossier `examples/` sans créer le paquet `.deb`. Voici comment l'utiliser :
+
+```bash
+./install_and_build.sh --generate-examples-only
+```
+
+**Cela créera les fichiers d'exemple suivants dans le dossier examples/ :**
+
+- delete_big_apk_mp4.yaml
+
+- move_old_zip.yaml
+
+- compress_old_docs.yaml
+
+- dry_run_log_cleanup.yaml
+
+- delete_old_torrents.yaml
+
+
 ### Méthode 2 : Installation via `pip`
 
 Si vous préférez ne pas utiliser le fichier `.deb`, vous pouvez installer les dépendances nécessaires et utiliser **trcleaner** directement depuis le code source.
