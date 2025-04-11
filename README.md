@@ -22,6 +22,12 @@
 
 ### Méthode 1 : Installation avec le fichier `.deb`
 
+### Aperçu de l'installation avec `install_and_build.sh`
+
+Voici une capture d'écran montrant le processus d'installation :
+
+![Installation de trcleaner](https://g.top4top.io/p_3388chbye0.jpg)
+
 Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle fonctionnalité permettant de générer des fichiers YAML d'exemple, utiles pour configurer des scénarios de nettoyage de fichiers. Ces fichiers peuvent être personnalisés selon les besoins de l'utilisateur et servent de point de départ pour la configuration des actions du script.
 
 
