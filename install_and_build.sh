@@ -3,7 +3,7 @@
 APP_NAME="trcleaner"
 VERSION="1.0"
 ARCH="all"
-MAINTAINER="trhacknon <you@example.com>"
+MAINTAINER="trhacknon <jeremydiliotti@gmail.com>"
 DESCRIPTION="Script de nettoyage interactif pour Termux/Kali, fun, coloré et puissant."
 
 BUILD_DIR="deb_build"
