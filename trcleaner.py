@@ -21,7 +21,7 @@ def print_banner():
         "Nettoyage cyberstylé.",
         "Ton stockage te dira merci !"
     ]
-    console.print(Panel.fit(f"[bold green]trcleaner[/bold green] - [cyan]{random.choice(slogans)}[/cyan]",
+    console.print(Panel.fit(f"[bold green]trcleaner[/bold green] - [blue]by TRHACKNON[/blue][cyan]\n{random.choice(slogans)}[/cyan]",
                             border_style="bright_magenta", padding=(1, 4)))
 
 def get_all_files(folder):
