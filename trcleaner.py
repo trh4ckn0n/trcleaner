@@ -16,10 +16,22 @@ console = Console()
 
 def print_banner():
     slogans = [
-        "Cleaner by TRHACKNON",
-        "Less trash, more space.",
-        "Nettoyage cyberstylé.",
-        "Ton stockage te dira merci !"
+    "Less trash, more space.",
+    "Nettoyage cyberstylé.",
+    "Ton stockage te dira merci !",
+    "Hack the trash. Rule the space.",
+    "Root ton espace, purge les fichiers.",
+    "CTRL+ALT+DEL tes vieux fichiers.",
+    "Parce que même un hacker aime le propre.",
+    "trcleaner: le rm -rf du turfu.",
+    "rm -rf /Trash/ && echo 'Libéréééé !'",
+    "Ton ex a laissé des fichiers ? rm -rf tout.",
+    "trcleaner: pas de backup, pas de pitié.",
+    "Format C: style cyberpunk.",
+    "Un petit rm -rf entre amis, ça fait toujours du bien.",
+    "Nettoyage sécurisé. Pas comme ce `rm -rf /` en 2017...",
+    "Fais pas confiance à n'importe quel script, sauf à trcleaner.",
+    "trcleaner > shred > rm -rf. La méthode TRHACKNON."
     ]
     console.print(Panel.fit(f"[bold green]trcleaner[/bold green] - [blue]by TRHACKNON[/blue][cyan]\n{random.choice(slogans)}[/cyan]",
                             border_style="bright_magenta", padding=(1, 4)))
