@@ -22,6 +22,9 @@
 
 ### Méthode 1 : Installation avec le fichier `.deb`
 
+Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle fonctionnalité permettant de générer des fichiers YAML d'exemple, utiles pour configurer des scénarios de nettoyage de fichiers. Ces fichiers peuvent être personnalisés selon les besoins de l'utilisateur et servent de point de départ pour la configuration des actions du script.
+
+
 1. Téléchargez le fichier `.deb` depuis la section "Releases" de ce dépôt.
 
 2. Generer le paquet `.deb` :
@@ -50,10 +53,6 @@
    trcleaner
    ```
 
-
-### Génération des fichiers YAML d'exemples
-
-Le script `install_and_build.sh` a été mis à jour pour inclure une nouvelle fonctionnalité permettant de générer des fichiers YAML d'exemple, utiles pour configurer des scénarios de nettoyage de fichiers. Ces fichiers peuvent être personnalisés selon les besoins de l'utilisateur et servent de point de départ pour la configuration des actions du script.
 
 #### Générer uniquement les fichiers d'exemples YAML
 
